@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "algotrader@2.5.4",
+      "C:\\Users\\Trevor\\Desktop\\stockalgos"
+    ]
+  ],
+  "_from": "algotrader@2.5.4",
+  "_id": "algotrader@2.5.4",
+  "_inBundle": false,
+  "_integrity": "sha512-6BhW2oFU8X12ll7gL/CoToIHATAO7Z+W8AQ3w1T7rDE97SZmWq7T9Pke1PxRPw3S9j/1wGOsPHILLwaibO+PxQ==",
+  "_location": "/algotrader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "algotrader@2.5.4",
+    "name": "algotrader",
+    "escapedName": "algotrader",
+    "rawSpec": "2.5.4",
+    "saveSpec": null,
+    "fetchSpec": "2.5.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/algotrader/-/algotrader-2.5.4.tgz",
+  "_spec": "2.5.4",
+  "_where": "C:\\Users\\Trevor\\Desktop\\stockalgos",
+  "author": {
+    "name": "Ladinn"
+  },
+  "bugs": {
+    "url": "https://github.com/Ladinn/algotrader/issues"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fast-csv": "^2.4.1",
+    "ftp": "^0.3.10",
+    "jsdoc-to-markdown": "^4.0.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0",
+    "node-schedule": "^1.3.0",
+    "node-uuid": "^1.4.8",
+    "ora": "^2.0.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "socket.io-client": "^2.1.0",
+    "uuid": "^3.3.2",
+    "xml-js": "^1.6.2"
+  },
+  "description": "Algorithmically trade stocks and options using Robinhood, Yahoo Finance, and more.",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "homepage": "https://github.com/Ladinn/algotrader#readme",
+  "keywords": [
+    "api",
+    "stocks",
+    "trading",
+    "broker",
+    "finance",
+    "algorithm",
+    "market",
+    "options",
+    "streaming",
+    "robinhood",
+    "yahoo finance",
+    "nasdaq",
+    "iex"
+  ],
+  "license": "ISC",
+  "main": "./index.js",
+  "name": "algotrader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ladinn/algotrader.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "version": "2.5.4"
+}
